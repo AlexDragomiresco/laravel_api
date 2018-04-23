@@ -41,6 +41,7 @@ class Kernel extends HttpKernel
             'bindings',
             \App\Http\Middleware\Logging::class,
             'httpHeaders:Custom text value for header',
+            \App\Http\Middleware\BasicAuth::class,
         ],
     ];
 
